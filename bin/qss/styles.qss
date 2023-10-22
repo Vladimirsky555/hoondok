@@ -1,0 +1,123 @@
+   QPushButton {
+     background-color: #3e8e41;
+     border: none;
+     color: white;
+     padding-left: 10px;
+     padding-right: 10px;
+     text-align: center;
+     text-decoration: none;
+     font-size: 16px;
+     border-radius: 10px;
+   }
+
+   QPushButton:hover {
+     background-color:  #47A76A;
+   }
+
+   QToolButton {
+     background-color: #C6C3B5;
+     font-size: 16px;
+   }
+
+   QComboBox {
+     background-color: #C6C3B5;
+     border: none;
+     color: white;
+     border-radius: 10px;
+     font-size: 16px;
+   }
+
+   QComboBox::drop-down {
+     subcontrol-origin: padding;
+     subcontrol-position: top right;
+     width: 30px;
+     border-left-width: 1px;
+     border-left-color: white;
+     border-left-style: solid;
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+   }
+
+   QComboBox::down-arrow {
+     image: url(:/images/down-arrow1.png);
+   }
+
+   QTableWidget {
+     background-color: rgb(255,255,255);
+   }
+
+  QHeaderView{
+    background: rgb(220,220,220)
+  }
+
+  QHeaderView::section{
+    background-color: rgb(220,220,220);
+    font-weight: bold;
+    font: bold 14px;
+    font-family: Tahoma;
+  }
+
+  QLabel {
+    color: rgb(127, 0, 63);
+    selection-color: white;
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+    background-color: rgb(220,220,220);
+  }
+
+  QLineEdit {
+    color: rgb(127, 0, 63);
+    selection-color: white;
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+  }
+
+  QLineEdit:focus {
+    color: rgb(127, 0, 63);
+    selection-color: white;
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+ }
+
+  QLineEdit:edit-focus {
+    color: rgb(127, 0, 63);
+    selection-color: white;
+    border: 2px groove gray;
+    border-radius: 10px;
+    padding: 2px 4px;
+ }
+
+  QRadioButton::indicator {
+    width:16px; height:16px;
+    font-size: 16px;
+  }
+
+  QRadioButton::indicator:checked {
+    image: url(:/images/radiobutton_03_32_checked2.png);
+  }
+
+  QRadioButton::indicator:unchecked {
+    image: url(:/images/radiobutton_03_32_unchecked.png);
+  }
+
+  QRadioButton::indicator:checked:disabled {
+    image: url(:/images/radiobutton_03_32_checked2_disabled.png)
+  }
+
+  QCheckBox::indicator {
+    width:16px; height:16px;
+  }
+
+  QCheckBox::indicator:checked {
+    image: url(:/images/checkbox-05-32-checked.png);
+  }
+
+  QCheckBox::indicator:unchecked {
+    image: url(:/images/checkbox-05-32-unchecked.png);
+  }
+
+
+

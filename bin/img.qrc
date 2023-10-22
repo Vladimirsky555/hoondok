@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/clear.png</file>
+        <file>images/file.png</file>
+        <file>images/www.ico</file>
+        <file>images/down-arrow1.png</file>
+        <file>images/radiobutton_03_32_checked2.png</file>
+        <file>images/radiobutton_03_32_checked2_disabled.png</file>
+        <file>images/radiobutton_03_32_unchecked.png</file>
+        <file>images/checkbox-05-32-checked.png</file>
+        <file>images/checkbox-05-32-unchecked.png</file>
+        <file>images/export-in-file.png</file>
+        <file>images/ex.png</file>
+        <file>images/pix.png</file>
+        <file>images/search.png</file>
+        <file>images/video-camera.png</file>
+    </qresource>
+</RCC>
